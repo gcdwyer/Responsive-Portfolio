@@ -152,6 +152,8 @@ a.button {
   width: 140px;
 }
 
+
+
 .box {
     background-color: #4aaaa5;
     color: white;
@@ -191,4 +193,45 @@ a.button {
     left: -4px;
 }
 
+@media screen and (max-width: 980px) {
+    .container {
+        width: 980px;
+    }
+    .self {
+        width:50%;
+    }
+    .about {
+        min-width: 300px;
+    }
+    .connect {
+        min-width: 100%;
+    }
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 768px;
+    }
+    .self {
+        width:50%;
+    }
+    .about {
+        min-width: 100%;
+    }
+    .connect {
+        min-width: 100%;
+    }
+
+@media screen and (max-width: 640px) {
+    .container {
+        width: 640px;
+    }
+    .self {
+        width:50%;
+    }
+    .about {
+        min-width: 100%;
+    }
+    .connect {
+        min-width: 100%;
+    }
 

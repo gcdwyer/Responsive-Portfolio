@@ -55,6 +55,7 @@ a.button {
     float: right;
     padding: 30px 20px;
     font-size: 20px;
+    float: right;
 }
 
 /* displays Name and Links */
@@ -63,10 +64,11 @@ a.button {
     border-color: #cccccc;
     border-bottom-style: solid;
     background-color: white;
-
     margin: -10px -8px 0 -10px;
     height: 80px;
 }
+
+
 
 /* displays text field and submit butotn */
 .contact {
@@ -132,12 +134,12 @@ a.button {
     text-align: center;
 }
 
-.container {
+/*.container {
     
     height: 400px;
     width: 400px;
     position: relative;
-}
+}*/
 
 .text {
   z-index: 100;
@@ -193,45 +195,90 @@ a.button {
     left: -4px;
 }
 
+nav {
+  float: right;
+  margin-top: 25px;
+  margin-right: 20px;
+}
+
+nav a {
+  display: inline-block;
+  padding-left: 15px;
+  margin-left: 15px;
+  margin-top: 5px;
+  line-height: 18px;
+  color: #999;
+  text-decoration: none;
+  border-left: 1px solid #efefef;
+}
+
 @media screen and (max-width: 980px) {
     .container {
         width: 980px;
     }
+
     .self {
-        width:50%;
-    }
-    .about {
-        min-width: 300px;
-    }
-    .connect {
-        min-width: 100%;
+        text-align: justify;
+        width:60%;
+        margin: 0% 20% 10px 20%;
     }
 
+    .self img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .about {
+        width: 60%;
+    }
+
+    .connect {
+        width: 30%;
+    }
+
+    
 @media screen and (max-width: 768px) {
     .container {
-        width: 768px;
+        max-width: 768px;
     }
+
     .self {
-        width:50%;
+        width:40%;
+        margin: 0px;
     }
+
     .about {
-        min-width: 100%;
+        width: 93%;
     }
+
+    .portfolio {
+        width: 93%;
+    }
+
+    .contact {
+        width: 93%;
+    }
+
     .connect {
-        min-width: 100%;
+        width: 93%;
+        margin-bottom: 100px;
     }
 
 @media screen and (max-width: 640px) {
     .container {
         width: 640px;
     }
+
     .self {
-        width:50%;
+        text-align: justify;
+        width:40%;
+        margin: 0% 30%;
     }
+
     .about {
-        min-width: 100%;
+        width: 93%;
     }
-    .connect {
-        min-width: 100%;
-    }
+
+
+
 
